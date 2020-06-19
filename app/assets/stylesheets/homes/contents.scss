@@ -1,10 +1,55 @@
 .contents {
   margin-top: 150px;
   text-align: center;
+  padding: 30px;
   &__first {
     &__com{
       margin-top: 30px;
       margin-bottom: 50px;
+    }
+  }
+  &__second {
+    margin: 400px 50px 0 50px;
+    
+    &__com {
+      font-size: 33px;
+    }
+    &__video {
+      &__1 {
+        float: left;
+        margin-bottom: 100px;
+        &__com 
+        {
+          padding: 150px 20px 0 60px;
+          float: right;
+        }
+      }
+      
+      &__2 {
+        float: right;
+        margin-bottom: 100px;
+        &__com {
+          padding: 150px 60px 0 20px;
+          float: left;
+        }
+      }
+      &__3 {
+        float: left;
+        margin-bottom: 100px;
+        &__com 
+        {
+          padding: 150px 20px 0 60px;
+          float: right;
+        }
+      }
+      &__4 {
+        float: right;
+        margin-bottom: 100px;
+        &__com {
+          padding: 150px 60px 0 20px;
+          float: left;
+        }
+      }
     }
   }
 }

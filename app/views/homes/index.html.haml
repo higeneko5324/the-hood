@@ -10,6 +10,8 @@
           about
         .top__header__list__work    
           work
+        .top__header__list__contact
+          contact  
     .top__main
       .top__main__right
         = image_tag '/image/DD3B1190-E0DB-45A5-9732-93B893AE7AAB.JPG', class: "top__main__right__image"
@@ -28,15 +30,30 @@
         %p くつろげる空間を目指しています。
         %p 珈琲をはじめ、様々なアーティストの展示会など承っております。
         %p ぜひThe Hoodでゆらりとしたお時間をお過ごしください。
-    .contents__second
-      .contents__second__image
+      .contents__first__image
         = image_tag '/image/79E0E00D-23AB-41C0-B53F-A0CCE4D85015.JPG', class: '.contents__second__image__photo'
-        
-
-        
-
-      
-      
-  
-
-
+    .contents__second
+      .contents__second__com
+        %h1 works
+      .scroll-fade
+        .contents__second__video
+          .contents__second__video__1
+            = video_tag("/videos/12160517854340.MP4", controls: true, loop: true, width: "700", height: "640", muted: true, autoplay: true,)
+            .contents__second__video__1__com
+              %h2 Coffee
+              %p ここに何か珈琲の紹介を入れます
+          .contents__second__video__2
+            = video_tag("/videos/12160562766627.MP4", controls: true, loop: true, width: "700", height: "640", muted: true, autoplay: true,)
+            .contents__second__video__2__com
+              %h2 Dance
+              %p ここに何かダンスの紹介を入れます
+          .contents__second__video__3
+            = video_tag("/videos/12160580331356.MP4", controls: true, loop: true, width: "700", height: "640", muted: true, autoplay: true,)
+            .contents__second__video__3__com
+              %h2 Movie
+              %p ここに何か動画撮影・編集の紹介を入れます
+          .contents__second__video__4
+            = video_tag("/videos/4738434488678453894.MP4", controls: true, loop: true, width: "700", height: "640", muted: true, autoplay: true,)
+            .contents__second__video__4__com
+              %h2 Events
+              %p ここに何かイベント活動の紹介を入れます
